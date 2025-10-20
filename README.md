@@ -10,4 +10,6 @@ This project simulates:
 - Bob measuring the qubits in random bases of his own.  
 - Alice and Bob comparing their bases to create a shared secret key.  
 
-
+## Next
+- Simulate a third-party observer measuring transmitted qubits to demonstrate how BB84 detects interference and information leakage.
+- Develop Python-based visualisations to show qubit states, measurement bases, and key agreement probabilities.

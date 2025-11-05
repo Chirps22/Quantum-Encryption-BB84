@@ -17,7 +17,7 @@ for bit, basis in zip(alice_bits, alice_bases):
         qc.x(0)
         
     # Encode basis
-    if basis == 'X':
+    if basis == '1':
         qc.h(0)
         
     # Store for transmission
@@ -29,7 +29,7 @@ bob_results = []
 for i in range(n):
     qc = qubits[i].copy()
     
-    if bob_bases[i] == 'X':
+    if bob_bases[i] == '1':
         qc.h(0)
     
     qc.measure(0, 0)

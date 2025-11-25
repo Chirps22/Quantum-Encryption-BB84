@@ -12,4 +12,8 @@ Currently, the project simulates the protocol and prints key details in the cons
 
 ## Next
 - Use Matplotlib to graph the effect of eavesdropping on key security.
+
 - Allow users to run simulations with custom key lengths and optional Eve interference.
+
+## Example simulation
+<img width="575" height="623" alt="image" src="https://github.com/user-attachments/assets/2775eecc-c761-4f3a-8661-cf971af84f6e" />
